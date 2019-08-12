@@ -37,10 +37,10 @@ endif()
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-project(CourseDashboard)
+project(EmptyProject)
 
 set(SRC_LIST
-    src/CourseDashboard.cpp
+    src/EmptyProject.cpp
 )
 
 include_directories(src)
@@ -55,7 +55,7 @@ else (UNIX)
 endif (UNIX)
 
 set(TEST_SRC_LIST
-    tests/CourseDashboardTests.cpp
+    tests/EmptyProjectTests.cpp
     tests/test_main.cpp
 )
 

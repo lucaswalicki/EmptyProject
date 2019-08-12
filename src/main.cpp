@@ -1,8 +1,8 @@
 #include <iostream>
-#include "CourseDashboard.hpp"
+#include "EmptyProject.hpp"
 
 int main()
 {
-    std::cout << "Course Dashboard" << std::endl;
+    std::cout << "Empty project" << std::endl;
     return 0;
 }
